@@ -27,9 +27,6 @@ programmed; their culture is left to emerge, and to be measured.
 Asks several AI models the same question with conflicting instructions, merges what survives, then runs a
 drafter / critic / judge debate. Runs entirely on free API tiers.
 
-**Web projects** · HTML, JavaScript, Firebase
-[SAT math practice](https://github.com/abu4evere/satmakon-math-test) · [Green Pledge](https://github.com/abu4evere/Green-Pledge)
-
 ### Tools
 Python · NumPy · SciPy · statistics (paired tests, bootstrap, multiple-comparison control) · reinforcement learning ·
 LLM APIs · Docker · GitHub Actions · HTML/JS
