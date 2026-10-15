@@ -21,7 +21,7 @@ programmed; their culture is left to emerge, and to be measured.
   value into what was inherited, absorbed from a carer, learned, or copied in talk, exact to 10⁻¹⁵.
 - Bit-exact replays guarded by CI (GitHub Actions, Windows), 56 tests including property-based tests that found a
   real flaw in the model's rules.
-- A book written from the experiments' results: [*The World That Nobody Wrote, Part One*](https://github.com/abu4evere/simulated-world/releases/tag/book-part-one) (119 chapters).
+- A book written from the experiments' results: [*The World That Nobody Wrote, Part One*](https://github.com/abu4evere/simulated-world/releases/tag/book-part-one) (217 pages).
 
 **[Unstuck](https://github.com/abu4evere/council)** · Python, Docker, Fly.io
 Asks several AI models the same question with conflicting instructions, merges what survives, then runs a
