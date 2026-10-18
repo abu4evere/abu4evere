@@ -1,6 +1,6 @@
 ### Hi, I'm Abdurashid 👋
 
-I build AI systems and test them like experiments. I'm based in Brooklyn, New York, and looking for AI/ML engineering,
+I build AI systems and test them like experiments. I'm based in New York, and looking for AI/ML engineering,
 research or AI training roles.
 
 **Contact:** [LinkedIn](https://www.linkedin.com/in/abdurashid-khudayberdiyev)
@@ -19,7 +19,7 @@ programmed; their culture is left to emerge, and to be measured.
 - About 60 studies (controlled experiments, read-only audits, evidence reviews). Experiments are pre-registered and
   frozen before they run, with a discovery set, a held-out replication and a sham control; every result traces to a
   committed script.
-- Reinforcement-learned habits (32 situations × 17 actions), and a bookkeeping method that splits every learned
+- Reinforcement-learned habits (32 situations × 19 actions), and a bookkeeping method that splits every learned
   value into what was inherited, absorbed from a carer, learned, or copied in talk, exact to 10⁻¹⁵.
 - Bit-exact replays guarded by CI (GitHub Actions, Windows), 56 tests including property-based tests that found a
   real flaw in the model's rules.
