@@ -3,6 +3,8 @@
 I build AI systems and test them like experiments. I'm based in Brooklyn, New York, and looking for AI/ML engineering,
 research or AI training roles.
 
+**Contact:** [LinkedIn](https://www.linkedin.com/in/abdurashid-khudayberdiyev)
+
 **What I work on**
 - **Agent-based simulation and reinforcement learning:** artificial societies whose people learn from experience,
   with every result tested by pre-registered, controlled experiments.
