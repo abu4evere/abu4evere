@@ -1,34 +1,51 @@
 ### Hi, I'm Abdurashid 👋
 
-I build AI systems and test them like experiments. I'm based in New York, and looking for AI/ML engineering,
+I build learning agents and test them like experiments. I'm based in New York, and looking for AI/ML engineering,
 research or AI training roles.
 
 **Contact:** [LinkedIn](https://www.linkedin.com/in/abdurashid-khudayberdiyev)
 
+**The question I work on:** can a small artificial mind learn to live in a world it was never built for, and keep
+what it learned when it moves to the next one? No language models inside the agents: everything they know, they
+learned from their own lives and from each other.
+
 **What I work on**
-- **Agent-based simulation and reinforcement learning:** artificial societies whose people learn from experience,
-  with every result tested by pre-registered, controlled experiments.
-- **LLM tooling:** getting several language models to disagree usefully, on free API tiers.
-- **Research rigour in code:** exact replays, frozen analysis plans, held-out data and sham controls.
+- **Learning agents:** small neural planners that learn from their own feelings (hunger, tiredness, curiosity), from
+  a parent, and from what their actions do.
+- **Agent-based simulation:** an artificial society whose nature is programmed and whose culture is left to emerge.
+- **Research rigour in code:** pre-registered, frozen plans; analysis written before the data; sham controls; held-out
+  replications; and every key number recomputed blind by an independent session before a result is called final.
 
 ### Featured projects
 
-**[Artificial Civilization Laboratory](https://github.com/abu4evere/simulated-world)** · Python, NumPy, SciPy
+**[Mind Lab](https://github.com/abu4evere/mindlab-brain)** · Python, NumPy
+A workbench for growing a brain: a 236-parameter neural planner (value iteration with a learned "can I step here?"
+filter), trained by actor-critic in procedurally generated grid worlds.
+- 45 pre-registered studies so far. Findings include: a long childhood with a parent who fades out is one of the
+  strongest levers found; an inborn sleep reflex cut deaths from exhaustion by more than half where reward shaping did not; the
+  best brain solves detours and survives about 99% of held-out lands even with its reflexes switched off.
+- **An outside exam in [Crafter](https://github.com/danijar/crafter)** (Hafner 2021), with no training there: given hand-
+  labelled meanings the brain scored 0.56%; when its eyes instead **learned within each life** what blocks, feeds and
+  waters it, it scored **1.51%**, far above the hand-labelled version and about level with Crafter's random agent
+  (1.54%). Being told made it rigid; finding out made it explore. A 3x confirmation run on new seeds is under way.
+- Each study plan is reviewed by three different LLMs acting as critics (GPT, Gemini, DeepSeek), and every claim they
+  make is checked against the code.
+
+**[Artificial Civilization Laboratory](https://github.com/abu4evere/artificial-civilization-laboratory)** · Python, NumPy, SciPy
 An agent-based simulation of a small prehistoric people. Their nature (bodies, drives, memory, learning) is
 programmed; their culture is left to emerge, and to be measured.
-- About 60 studies (controlled experiments, read-only audits, evidence reviews). Experiments are pre-registered and
-  frozen before they run, with a discovery set, a held-out replication and a sham control; every result traces to a
-  committed script.
-- Reinforcement-learned habits (32 situations × 19 actions), and a bookkeeping method that splits every learned
-  value into what was inherited, absorbed from a carer, learned, or copied in talk, exact to 10⁻¹⁵.
-- Bit-exact replays guarded by CI (GitHub Actions, Windows), 56 tests including property-based tests that found a
-  real flaw in the model's rules.
-- A book written from the experiments' results: [*The World That Nobody Wrote, Part One*](https://github.com/abu4evere/simulated-world/releases/tag/book-part-one) (226 pages).
+- About 190 logged studies (controlled experiments, read-only audits, evidence reviews), each pre-registered and frozen
+  before it runs; every result traces to a committed script.
+- **The final exam for Mind Lab's brain:** raised for 300 lives inside the society, it caught up with the society's
+  hand-written decision rules (27.8 vs 26.7 years of life on 150 new worlds; difference +1.2, 95% CI −2.5 to +4.7) and
+  lived 8 years longer than the untrained brain.
+- Bit-exact replays guarded by 72 tests, including property-based tests that found a real flaw in the model's rules.
+- A book written from the experiments' results: [*The World That Nobody Wrote, Part One*](https://github.com/abu4evere/artificial-civilization-laboratory/releases/tag/book-part-one) (226 pages).
 
 **[Unstuck](https://github.com/abu4evere/council)** · Python, Docker, Fly.io
 Asks several AI models the same question with conflicting instructions, merges what survives, then runs a
 drafter / critic / judge debate. Runs entirely on free API tiers.
 
 ### Tools
-Python · NumPy · SciPy · statistics (paired tests, bootstrap, multiple-comparison control) · reinforcement learning ·
-LLM APIs · Docker · GitHub Actions · HTML/JS
+Python · NumPy · SciPy · reinforcement learning (actor-critic, value iteration) · statistics (paired bootstrap,
+pre-registration, multiple-comparison control) · LLM APIs · Docker · Linux cloud VMs · GitHub Actions (CI) · HTML/JS
